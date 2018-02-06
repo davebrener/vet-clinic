@@ -1,0 +1,1037 @@
+/* Put your custom styles here */
+
+/*CSS file last updated on 2.06.2018 @ 3:50 PM*/
+
+/****TOP HEADER BANNER****/
+
+#top-banner-wrapper {
+    background: #002D5B !important;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+}
+
+#banner-no-top-001,
+#banner-no-top-002 {
+    margin-top: 0px !important;
+}
+
+.hover-red:hover {
+    background: #A30C33;
+}
+
+.hover-red-active {
+    background: #A30C33;
+}
+
+.hover-red a {
+    font-family: 'Montserrat' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+}
+
+.no-bottom {
+    margin-bottom: 0;
+}
+
+.sign-in-section {
+    display: none !important;
+}
+
+/****FONTS****/
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    color: #77797C;
+    font-weight: 500;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.vinx-green,
+.vinx-green-medium,
+.vinx-green-light {
+    color: #07929E !important;
+    font-weight: 700 !important;
+}
+
+.vinx-green-light {
+    font-weight: 400 !important;
+    line-height: 1.2em;
+}
+
+.vinx-green-medium {
+    font-weight: 600 !important;
+    line-height: 1.2em;
+}
+
+.vinx-white,
+.vinx-white-light {
+    color: #fff;
+    font-weight: 600;
+}
+
+.vinx-white-light {
+    font-weight: 400;
+}
+
+.vinx-grey {
+    color: #77797C;
+}
+
+.white {
+    color: #fff;
+}
+
+.twenty-font {
+    font-size: 20px;
+}
+
+.thirty-two-font {
+    font-size: 32px;
+}
+
+.thirty-four-font {
+    font-size: 34px;
+}
+
+/****PADDING & MARGIN****/
+
+.no-padding-bottom {
+    padding-bottom: 0;
+}
+
+.no-padding-top {
+    padding-top: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.margin-top-two-percent {
+    margin-top: 2%;
+}
+
+.margin-top-four-percent {
+    margin-top: 4%;
+}
+
+.margin-bottom-1-percent {
+    margin-bottom: 1%;
+}
+
+.margin-bottom-five-percent {
+    margin-bottom: 5%;
+}
+
+.margin-bottom-ten-percent {
+    margin-bottom: 10%;
+}
+
+.five-percent-padding {
+    padding-top: 5%;
+}
+
+.seven-percent-padding {
+    padding-top: 7%;
+}
+
+.twelve-percent-padding {
+    padding-top: 12%;
+}
+
+.fifteen-percent-padding {
+    padding-top: 15%;
+}
+
+.twenty-five-percent-padding {
+    padding-top: 25%;
+}
+
+.top-margin-thirtyfour {
+    margin-top: 20px;
+}
+
+.top-margin-fortyfive {
+    margin-top: 45px;
+}
+
+.forty-five-left-padding {
+    padding-left: 2%;
+}
+
+.forty-five-mobile {
+    padding-left: 0;
+}
+
+.padding-top-zero {
+    padding-top: 0;
+}
+
+.pet-demo-padding {
+    padding-top: 5%;
+}
+
+.padding-fifty {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.padding-onehundred {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/****NAVIGATION SECTION STYLES****/
+
+.header-logo-drop {
+    padding-top: 20px;
+}
+
+/****HEADER SECTION****/
+
+.logo-container {
+    margin-top: 100px;
+}
+
+.logo-text {
+    color: #002D5B !important;
+    font-family: 'Montserrat';
+    font-size: 48px !important;
+    font-weight: 800;
+    line-height: 1.2em;
+    text-align: right;
+}
+
+.large-green {
+    color: #07929E;
+    font-size: 69px;
+}
+
+/****VET WORK IS HARD SECTION STYLES****/
+
+.vet-work-hard-text>h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em !important;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.vet-work-hard-text>p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.vinx-subhead {
+    color: #07929E !important;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.image-container>img {
+    margin-bottom: 25px;
+}
+
+/****WELCOME TO A NEW BREED SECTION STYLES****/
+
+.welcome-section-container {
+    padding-bottom: 5px;
+}
+
+.light-grey-bg {
+    background: #f5f5f5;
+}
+
+.vinx-green-bg {
+    background: #07929E;
+}
+
+.welcome-new-breed {
+    margin-bottom: 85px;
+    text-align: center;
+}
+
+.welcome-new-breed>h1 {
+    margin-top: 5px;
+}
+
+.welcome-new-breed>h2 {
+    color: #77797C;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.animal-row-container>img {
+    display: block;
+    margin: 0 auto;
+}
+
+.four-col-modules-section {
+    margin-top: 0px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.fifty-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f5f5+50,07929e+50 */
+    background: #f5f5f5;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #f5f5f5 50%, #07929e 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f5f5f5 50%, #07929e 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f5f5f5 50%, #07929e 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#07929e', GradientType=1);
+    /* IE6-9 */
+    padding: 65px 0;
+}
+
+.new-white-col {
+    padding: 0 2%;
+}
+
+.new-white-col h2,
+.new-green-col h2 {
+    color: #07929e;
+    font-size: 38px;
+}
+
+.new-white-col p,
+.new-green-col p {
+    color: #77797C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.new-green-col {
+    padding: 0 5%;
+}
+
+.new-green-col h2 {
+    color: #ffffff;
+}
+
+.new-green-col p {
+    color: #ffffff;
+}
+
+/****FLEXBOX****/
+
+/* Row with equal height columns */
+
+.flexbox-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.feature-column {
+    background: #fff;
+    border: 1.5px solid #C6C6C6;
+    flex: 1;
+    margin: 10px;
+}
+
+.feature-column:hover {
+    border: 1.5px solid #07929E;
+}
+
+.feature-box-white-bg {
+    background: #fff !important;
+    padding: 35px 5px !important;
+}
+
+.feature-box-white-bg h3 {
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.content-3-5 .feature-box p {
+    color: #000;
+    opacity: 1;
+}
+
+.feature-box-white-bg p {
+    font-weight: 500;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+}
+
+.btn.btn-default {
+    box-shadow: none;
+}
+
+.learn-more-button {
+    background: #808285 !important;
+    border: 3px solid #808285;
+    border-radius: 30px;
+    color: #fff !important;
+    font-weight: 700;
+    margin-top: 20px;
+    max-width: 190px;
+    min-width: 190px;
+    padding: 10px 20px;
+}
+
+.learn-more-button:hover {
+    background-color: #adadad !important;
+    border: 3px solid #adadad !important;
+    color: #fff;
+}
+
+.button-transform {
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/****CSS GRID****/
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 150px));
+    grid-gap: 3px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/****BUILD EVEN BETTER SECTION STYLES****/
+
+.client-row {
+    background: #fff;
+}
+
+.liv-lily-image-container {
+    padding: 0;
+}
+
+.liv-and-lily-col {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.liv-and-lily-col>h1 {
+    color: #07929E;
+    font-size: 38px;
+    line-height: 1.2em;
+}
+
+.liv-lily-btn {
+    background: #07929E !important;
+    border: 3px solid #07929E;
+    border-radius: 55px;
+    color: #fff !important;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 8px 50px;
+}
+
+.liv-lily-btn:hover {
+    background: #045a62 !important;
+    border: 3px solid #045a62;
+    border-radius: 55px;
+    box-shadow: none !important;
+    color: #fff !important;
+    font-size: 26px;
+}
+
+.liv-lily-btn h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.liv-lily-btn p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.relationship-status {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vet-margin-top {
+    margin-top: 25px;
+}
+
+/****TAKE THINGS FURTHER SECTION****/
+
+.white-column {
+    background: #F5F5F5;
+}
+
+.green-column {
+    background: #07929E;
+}
+
+.white-column,
+.green-column {
+    padding: 50px;
+    text-align: justify;
+}
+
+.white-column h2 {
+    color: #07929e;
+    font-size: 38px;
+}
+
+.green-column h2 {
+    color: #fff;
+    font-size: 38px;
+}
+
+.flex-content {
+    margin: 0 auto;
+}
+
+.flex-content>p,
+.white-column>p {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.white-column .flex-content>p {
+    color: #77797C !important;
+}
+
+.balance-btn {
+    border: 3px solid;
+    border-radius: 33px;
+}
+
+.balance-btn.green {
+    background-color: #07929E;
+    border-color: #07929E;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.balance-btn.green:hover {
+    background-color: #045a62;
+    border-color: #045a62;
+    box-shadow: none;
+}
+
+.balance-btn.white-btn {
+    background: #fff;
+    border-color: #fff;
+    box-shadow: none;
+    color: #07929E;
+    font-weight: 600;
+}
+
+.balance-btn.white-btn:hover {
+    background: #bdc3c7;
+    border-color: #bdc3c7;
+    box-shadow: none;
+    color: #07929E;
+}
+
+.inner {
+    padding: 0 5%;
+}
+
+/****REPORTING PAGE STYLES****/
+
+.vinx-blue {
+    color: #002D5B;
+    font-weight: 600;
+}
+
+.reporting-white-bg {
+    background-color: #fff;
+}
+
+#detailed-compliance {
+    padding-bottom: 0px;
+}
+
+.demographics-padding {
+    padding-top: 10%;
+}
+
+.dr-pat-btn {
+    background: #07929e;
+    border: 3px solid #07929e;
+    border-radius: 50px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 23px;
+    margin-top: 20px;
+    padding: 8px 30px !important;
+    width: 60%;
+    max-width: 60%;
+}
+
+.dr-pat-btn:hover {
+    background: #045a62 !important;
+    border: 3px solid #045a62;
+    color: #fff;
+}
+
+.demo-btn {
+    font-size: 23px;
+    max-width: 280px;
+    min-width: 280px;
+}
+
+.vinx-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.vinx-col {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    background: #eee;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.vinx-col>.btn {
+    width: 60%;
+}
+
+.vinx-green-bg {
+    background: #07929E;
+}
+
+.vin-family-text {
+    color: #77797C;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 15px;
+}
+
+/****AIMING FOR TEAM PAGE STYLES BELOW****/
+
+.our-team {
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.our-team img {
+    height: 100%;
+    width: 100%;
+}
+
+.our-team .content {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 30%;
+    transform: perspective(400px) rotateX(-90deg);
+    transform-origin: center top 0;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+}
+
+.our-team:hover .content,
+.our-team.active .content {
+    opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+}
+
+.our-team .content .title {
+    margin: 0 0 10px;
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.our-team .content .post {
+    margin: 0 0 25px;
+    display: block;
+    font-size: 15px;
+}
+
+.our-team .social {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 0;
+    background-color: #F32248;
+    margin-right: 5px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+}
+
+.our-team .social li a:hover,
+.our-team.active .social li a {
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.confirmation {
+    color: #77797C !important;
+    font-weight: 600;
+}
+
+.green-link {
+    color: #07929E;
+    font-weight: 600;
+}
+
+/****VINX PLEDGE SECTION****/
+
+.vinx-pledge h2 {
+    color: #77797C;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 8px auto;
+    text-align: right;
+    padding-right: 15%;
+}
+
+/****VETTOOLS BUDDY PAGE****/
+
+.vettools-appt-content {
+    padding-top: 2%;
+}
+
+.quote-confirm-appt {
+    margin-top: 35px;
+}
+
+.nobody-ever {
+    font-size: 30px;
+}
+
+.buddy-subhead {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #77797C;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.buddy-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #77797C;
+}
+
+.buddy-call-out {
+    color: #77797C;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.vettools-buddy-list {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.vettools-buddy-list li {
+    color: #000;
+    font-size: 16px;
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.vettools-buddy-list i {
+    color: #07929E;
+    float: left;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.vettools-buddy-list p {
+    display: block;
+    margin: 8px 0 8px 18px;
+}
+
+.vettools-buddy-list p a {
+    color: #000;
+}
+
+.vettools-buddy-list p a:hover {
+    color: #07929E;
+}
+
+.google-couple-col {
+    padding-right: 0;
+}
+
+.liv-lily-list li {
+    color: #07929e;
+    font-size: 16px;
+    list-style-type: disc;
+    margin-bottom: 25px;
+}
+
+.liv-lily-list li:nth-child(3) {
+    margin-bottom: none !important;
+}
+
+.liv-lily-list li span {
+    color: #000;
+}
+
+.long-button {
+    border-radius: 50px;
+    font-size: 23px;
+    font-weight: 500;
+    max-width: 366px;
+    min-width: 366px;
+    padding: 5px 20px;
+}
+
+/****OUTREACH PAGE****/
+
+.postal-stack-pic {
+    margin-top: 25px;
+}
+
+.outreach-content {
+    margin: 8% 0;
+}
+
+.alex-running-content {
+    margin-top: 22%;
+}
+
+/****CONNECT PAGE STYLES****/
+
+.caremail-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.caremail-item {
+    margin: 0 10px;
+}
+
+.caremail-item h2 {
+    font-weight: 700;
+}
+
+/****SMS HEALTH REMINDER PAGE****/
+
+.grey-thirty {
+    font-size: 30px;
+}
+
+.green-twentynine {
+    font-size: 29px;
+    line-height: 1.3em;
+}
+
+.footer-links,
+.footer-links>a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-links>a:hover {
+    color: #07929E;
+}
+
+/****MEDIA QUERIES****/
+
+@media (max-width: 1200px) {
+    .forty-five-mobile {
+        padding-left: 4.5%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 989px) {
+    .fifty-gradient {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f5f5+50,07929e+50 */
+        background: #f5f5f5;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #f5f5f5 50%, #07929e 50%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f5f5f5 50%, #07929e 50%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f5f5f5 50%, #07929e 50%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#07929e', GradientType=0);
+        /* IE6-9 */
+        padding: 0;
+    }
+    .new-white-col {
+        padding: 2%;
+    }
+    .new-green-col {
+        padding: 10%;
+    }
+    .new-white-col h2,
+    .new-green-col h2 {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 981px) {
+    .five-percent-padding,
+    .seven-percent-padding,
+    .twelve-percent-padding,
+    .fifteen-percent-padding,
+    .twenty-five-percent-padding,
+    .forty-five-left-padding {
+        padding-top: 0;
+    }
+    .padding-top-zero {
+        padding-top: 100px;
+    }
+    .flexbox-row {
+        flex-flow: column nowrap;
+    }
+    .feature-column {
+        margin: 5px 0;
+    }
+    .vinx-flex {
+        flex-flow: column nowrap;
+    }
+    .vinx-col {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 25px;
+    }
+    .vinx-col>.btn {
+        width: 50%;
+    }
+    .vinx-pledge h2 {
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:768px) {
+    #banner-header {
+        display: none;
+    }
+    .sign-in-section {
+        display: block !important;
+    }
+    #promo-3 {
+        padding: 25px 0;
+    }
+    .logo-container>img {
+        margin: 0 auto;
+    }
+    .logo-text {
+        text-align: center;
+    }
+    .vinx-col>.btn {
+        width: 100%;
+    }
+    .vettools-buddy-list i {
+        float: none;
+    }
+    .vettools-buddy-list p {
+        margin-left: 0;
+    }
+    .google-couple-col {
+        padding-right: 15px;
+    }
+    .liv-lily-list li {
+        list-style-position: inside;
+    }
+    .big-margin {
+        margin: 40px 0;
+    }
+    .think-about-content {
+        margin-top: 25%;
+    }
+    .liv-content-block {
+        padding-bottom: 0;
+    }
+    .lily-content-block {
+        padding-top: 0;
+    }
+    .quote-confirm-appt {
+        margin-top: 0;
+    }
+    .think-about-content {
+        margin-top: 0;
+    }
+    .postal-stack-pic {
+        margin-top: 0;
+    }
+    .outreach-content {
+        margin: 0;
+    }
+    .alex-running-content {
+        margin-top: 0;
+    }
+    .caremail-flex {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .pic-padding {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:480px) {
+    #header-2 .brand-img {
+        max-width: 200px;
+    }
+}
