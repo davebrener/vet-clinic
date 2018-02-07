@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.06.2018 @ 4:21 PM*/
+/*CSS file last updated on 2.07.2018 @ 11:38 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -193,6 +193,10 @@ p {
 .padding-onehundred {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.six-percent-margin {
+    margin-top: 6%;
 }
 
 /****NAVIGATION SECTION STYLES****/
@@ -441,17 +445,19 @@ p {
     line-height: 1.2em;
 }
 
-.liv-lily-btn {
+.liv-lily-btn,
+.dr-pat-btn {
     background: #07929E !important;
     border: 3px solid #07929E;
     border-radius: 55px;
     color: #fff !important;
     font-size: 26px;
     font-weight: 500;
-    padding: 8px 50px;
+    padding: 0 35px;
 }
 
-.liv-lily-btn:hover {
+.liv-lily-btn:hover,
+.dr-pat-btn:hover {
     background: #045a62 !important;
     border: 3px solid #045a62;
     border-radius: 55px;
@@ -460,16 +466,30 @@ p {
     font-size: 26px;
 }
 
-.liv-lily-btn h3 {
+.liv-lily-btn h3,
+.dr-pat-btn h3 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
-.liv-lily-btn p {
+.dr-pat-btn h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.liv-lily-btn p,
+.dr-pat-btn p {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-bottom: 5px;
     margin-top: 5px;
+}
+
+.dr-pat-btn p {
+    color: #fff;
+    margin-bottom: 0;
 }
 
 .relationship-status {
@@ -579,6 +599,7 @@ p {
     padding-top: 10%;
 }
 
+/*
 .dr-pat-btn {
     background: #07929e;
     border: 3px solid #07929e;
@@ -597,6 +618,7 @@ p {
     border: 3px solid #045a62;
     color: #fff;
 }
+*/
 
 .demo-btn {
     font-size: 23px;
