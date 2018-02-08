@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.07.2018 @ 4:33 PM*/
+/*CSS file last updated on 2.08.2018 @ 2:30 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -95,6 +95,10 @@ p {
 	font-size: 20px;
 }
 
+.thirty-font {
+	font-size: 30px;
+}
+
 .thirty-two-font {
 	font-size: 32px;
 }
@@ -163,6 +167,10 @@ p {
 
 .twenty-five-percent-padding {
 	padding-top: 25%;
+}
+
+.top-margin-twentyfive {
+	margin-top: 25%;
 }
 
 .top-margin-thirtyfour {
@@ -961,6 +969,9 @@ p {
 	.padding-top-zero {
 		padding-top: 100px;
 	}
+	.top-margin-twentyfive {
+		margin-top: 0;
+	}
 	.flexbox-row {
 		flex-flow: column nowrap;
 	}
@@ -1053,6 +1064,11 @@ p {
 	}
 	.pic-padding {
 		padding-bottom: 10px;
+	}
+	.woman-cats-container>img {
+		margin-top: 50px;
+		max-width: 100%;
+		min-width: 100%;
 	}
 }
 
