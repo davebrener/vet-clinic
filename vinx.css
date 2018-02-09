@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.09.2018 @ 2:01 PM*/
+/*CSS file last updated on 2.09.2018 @ 3:58 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -135,6 +135,10 @@ p {
 
 .margin-top-four-percent {
 	margin-top: 4%;
+}
+
+.margin-top-six-percent {
+	margin-top: 6%;
 }
 
 .margin-bottom-1-percent {
