@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.09.2018 @ 12:38 PM*/
+/*CSS file last updated on 2.09.2018 @ 2:01 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -139,6 +139,10 @@ p {
 
 .margin-bottom-1-percent {
 	margin-bottom: 1%;
+}
+
+.margin-bottom-three-percent {
+	margin-bottom: 3%;
 }
 
 .margin-bottom-five-percent {
@@ -914,6 +918,15 @@ p {
 
 .footer-links>a:hover {
 	color: #07929E;
+}
+
+/****POSTCARD REMINDERS****/
+
+.vinx-flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 /****MEDIA QUERIES****/
