@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.12.2018 @ 9:31 AM*/
+/*CSS file last updated on 2.12.2018 @ 5:15 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -91,6 +91,10 @@ p {
 	color: #fff;
 }
 
+.nineteen-font {
+	font-size: 19px;
+}
+
 .twenty-font {
 	font-size: 20px;
 }
@@ -163,6 +167,10 @@ p {
 
 .margin-left-zero {
 	margin-left: 0;
+}
+
+.one-percent-padding {
+	padding-top: 1%;
 }
 
 .three-percent-padding {
@@ -900,13 +908,19 @@ p {
 	color: #000;
 }
 
-.long-button {
+.long-button,
+.medium-button {
 	border-radius: 50px;
 	font-size: 23px;
 	font-weight: 500;
 	max-width: 366px;
 	min-width: 366px;
 	padding: 5px 20px;
+}
+
+.medium-button {
+	max-width: 250px;
+	min-width: 250px;
 }
 
 /****OUTREACH PAGE****/
