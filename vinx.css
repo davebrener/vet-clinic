@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.13.2018 @ 1:24 PM*/
+/*CSS file last updated on 2.13.2018 @ 4:11 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -278,11 +278,11 @@ p {
 }
 
 #header-2 .main-nav .nav {
-    margin-top: 35px;
+	margin-top: 35px;
 }
 
 .nav>li>a {
-    padding: 15px 12px;
+	padding: 15px 12px;
 }
 
 /****HEADER SECTION****/
@@ -997,7 +997,6 @@ p {
 	padding: 15px 45px;
 }
 
-
 .vinx-flex-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -1072,6 +1071,35 @@ p {
 }
 
 /* End carousel */
+
+/****FAQs PAGE STYLES****/
+
+.panel-title>a {
+	font-size: 24px;
+	font-weight: 400;
+	padding: 40px 25px 40px;
+	text-transform: none;
+}
+
+.panel-body {
+	font-size: 16px;
+}
+
+[data-toggle="collapse"]:after {
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f0a9";
+	transform: rotate(90deg);
+	transition: all linear 0.25s;
+	float: right;
+}
+
+[data-toggle="collapse"].collapsed:after {
+	transform: rotate(0deg);
+}
 
 /****MEDIA QUERIES****/
 
