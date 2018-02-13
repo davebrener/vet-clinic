@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.13.2018 @ 10:32 AM*/
+/*CSS file last updated on 2.13.2018 @ 1:24 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -111,6 +111,11 @@ p {
 	font-size: 34px;
 }
 
+.thirty-six-font {
+	font-size: 36px;
+	line-height: 1.3em;
+}
+
 .thirty-eight-font {
 	font-size: 38px;
 }
@@ -186,6 +191,10 @@ p {
 	padding-top: 7%;
 }
 
+.ten-percent-padding {
+	padding-top: 10%;
+}
+
 .twelve-percent-padding {
 	padding-top: 12%;
 }
@@ -247,6 +256,11 @@ p {
 .padding-onehundred {
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+
+.padding-left-right-twenty {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .six-percent-margin {
@@ -332,7 +346,7 @@ p {
 }
 
 .welcome-new-breed {
-	margin-bottom: 55px;
+	margin-bottom: 65px;
 	text-align: center;
 }
 
@@ -542,7 +556,7 @@ p {
 
 .dr-pat-btn h3 {
 	margin-top: 0;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 }
 
 .liv-lily-btn p,
@@ -555,6 +569,7 @@ p {
 
 .dr-pat-btn p {
 	color: #fff;
+	margin-top: 8px;
 	margin-bottom: 0;
 }
 
@@ -978,6 +993,9 @@ p {
 
 /****POSTCARD REMINDERS****/
 
+.video-btn {
+	padding: 15px 45px;
+}
 
 
 .vinx-flex-container {
@@ -1099,6 +1117,7 @@ p {
 @media (max-width: 981px) {
 	.five-percent-padding,
 	.seven-percent-padding,
+	.ten-percent-padding,
 	.twelve-percent-padding,
 	.fifteen-percent-padding,
 	.twenty-five-percent-padding,
