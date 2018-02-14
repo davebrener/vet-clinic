@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.13.2018 @ 4:11 PM*/
+/*CSS file last updated on 2.14.2018 @ 9:22 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1085,6 +1085,8 @@ p {
 	font-size: 16px;
 }
 
+/***
+
 [data-toggle="collapse"]:after {
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
@@ -1100,6 +1102,8 @@ p {
 [data-toggle="collapse"].collapsed:after {
 	transform: rotate(0deg);
 }
+
+****/
 
 /****MEDIA QUERIES****/
 
