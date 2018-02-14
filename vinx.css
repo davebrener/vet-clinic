@@ -1085,9 +1085,7 @@ p {
 	font-size: 16px;
 }
 
-/***
-
-[data-toggle="collapse"]:after {
+.panel-title>a[data-toggle="collapse"]:after {
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
 	text-rendering: auto;
@@ -1099,11 +1097,9 @@ p {
 	float: right;
 }
 
-[data-toggle="collapse"].collapsed:after {
+.panel-title>a[data-toggle="collapse"].collapsed:after {
 	transform: rotate(0deg);
 }
-
-****/
 
 /****MEDIA QUERIES****/
 
