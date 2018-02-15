@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.14.2018 @ 3:54 PM*/
+/*CSS file last updated on 2.15.2018 @ 12:09 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -89,6 +89,10 @@ p {
 
 .white {
 	color: #fff;
+}
+
+.medium-weight {
+	font-weight: 600;
 }
 
 .nineteen-font {
@@ -205,6 +209,10 @@ p {
 
 .twenty-five-percent-padding {
 	padding-top: 25%;
+}
+
+.top-margin-twenty-one {
+	margin-top: 21px;
 }
 
 .top-margin-twentyfive {
@@ -507,7 +515,7 @@ p {
 /****BUILD EVEN BETTER SECTION STYLES****/
 
 .client-row {
-	background: #fff;
+	background: #f9f9f9;
 }
 
 .liv-lily-image-container {
@@ -633,7 +641,8 @@ p {
 	border-color: #07929E;
 	box-shadow: none;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 700;
+	padding: 8px 20px;
 }
 
 .balance-btn.green:hover {
@@ -648,6 +657,7 @@ p {
 	box-shadow: none;
 	color: #07929E;
 	font-weight: 600;
+	padding: 8px 20px;
 }
 
 .balance-btn.white-btn:hover {
@@ -994,7 +1004,7 @@ p {
 /****POSTCARD REMINDERS****/
 
 .video-btn {
-	padding: 15px 45px;
+	padding: 6px 45px;
 }
 
 .vinx-flex-container {
@@ -1100,6 +1110,26 @@ p {
 .panel-title>a[data-toggle="collapse"].collapsed:after {
 	transform: rotate(0deg);
 }
+
+/****HOT BOARD PAGE STYLES****/
+
+.blog-feature-wrapper {
+	background: #f5f5f5 !important;
+	padding: 0 0 15px 0 !important;
+}
+
+.icon-container {
+	padding: 15px 0;
+}
+
+.blog-excerpt-container {
+	padding: 0 30px 10px;
+}
+
+.blog-excerpt-container>p {
+	color: #000 !important;
+}
+
 
 /****MEDIA QUERIES****/
 
