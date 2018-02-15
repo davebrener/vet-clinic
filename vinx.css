@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.15.2018 @ 12:09 PM*/
+/*CSS file last updated on 2.15.2018 @ 1:48 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -100,7 +100,7 @@ p {
 }
 
 .twenty-font {
-	font-size: 20px;
+	font-size: 20px !important;
 }
 
 .thirty-font {
@@ -122,6 +122,10 @@ p {
 
 .thirty-eight-font {
 	font-size: 38px;
+}
+
+.font-weight400 {
+	font-weight: 400 !important;
 }
 
 /****PADDING & MARGIN****/
@@ -269,6 +273,10 @@ p {
 .padding-left-right-twenty {
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.btn-padding-3-20 {
+	padding: 3px 20px !important;
 }
 
 .six-percent-margin {
@@ -1004,7 +1012,14 @@ p {
 /****POSTCARD REMINDERS****/
 
 .video-btn {
+	font-size: 20px;
+	font-weight: 400;
 	padding: 6px 45px;
+}
+
+.video-btn:hover {
+	font-size: 20px;
+	font-weight: 400;
 }
 
 .vinx-flex-container {
