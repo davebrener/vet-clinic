@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.15.2018 @ 3:40 PM*/
+/*CSS file last updated on 2.16.2018 @ 1:18 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -29,6 +29,14 @@
 	font-size: 16px !important;
 	font-weight: 400 !important;
 	text-transform: none !important;
+}
+
+.phone-number>a {
+	font-family: 'Montserrat' !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	text-transform: none !important;
+	padding: 15px 12px;
 }
 
 .no-bottom {
@@ -1027,6 +1035,49 @@ p {
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
+}
+
+/***** Modal *****/
+
+.modal-backdrop.in {
+	filter: alpha(opacity=7);
+	opacity: 0.7;
+}
+
+.modal-content {
+	background: none;
+	border: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin-top: 50%;
+}
+
+.modal-body {
+	padding: 0 25px 25px 25px;
+}
+
+.modal-header {
+	padding: 25px 25px 15px 25px;
+	text-align: right;
+}
+
+.modal-header,
+.modal-footer {
+	border: 0;
+}
+
+.modal-header .close {
+	float: none;
+	margin: 0;
+	font-size: 36px;
+	color: #fff;
+	font-weight: 300;
+	text-shadow: none;
+	opacity: 1;
 }
 
 /***POSTCARD REMINDERS CAROUSEL STYLES****/
