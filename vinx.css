@@ -1037,7 +1037,7 @@ p {
 	align-items: center;
 }
 
-/***** Modal *****/
+/***** MODAL *****/
 
 .modal-backdrop.in {
 	filter: alpha(opacity=7);
