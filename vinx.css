@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.16.2018 @ 4:47 PM*/
+/*CSS file last updated on 2.17.2018 @ 3:48 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1263,6 +1263,26 @@ p {
 	text-align: left !important;
 	margin-bottom: 10px;
 }
+
+.breed-theme-radio {
+	margin-top: 2.5% !important;
+}
+
+.breed-themes {
+	font-size: 27px;
+	font-weight: 400;
+}
+
+.small-text>span {
+	font-size: 16px;
+}
+
+.upcoming-radio>.radio label,
+.overdue-radio>.radio label {
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
 
 /****MEDIA QUERIES****/
 
