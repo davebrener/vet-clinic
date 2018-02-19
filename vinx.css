@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.17.2018 @ 3:48 PM*/
+/*CSS file last updated on 2.19.2018 @ 9:37 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -116,6 +116,10 @@ p {
 	font-size: 20px !important;
 }
 
+.twenty-three-font {
+	font-size: 23px !important;
+}
+
 .thirty-font {
 	font-size: 30px;
 }
@@ -226,6 +230,10 @@ p {
 
 .twenty-five-percent-padding {
 	padding-top: 25%;
+}
+
+.thirty-five-percent-padding {
+	padding-top: 35%;
 }
 
 .top-margin-twenty-one {
@@ -1226,40 +1234,11 @@ p {
 	margin: 0 0 15px 0;
 }
 
-/***PETPOST SIGN-UP PAGE
-
-
-.cys__listradio{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.cys__listradio li{
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 25px;
-    text-align: left;
-}
-.cys__listradio label{
-    width: 100%;
-    font-size: 18px;
-    color: #545554;
-    float: none;
-    //font-family: 'ProximaNovaLtLight';
-}
-.cys__listradio label i{
-    font-style: italic;
-}
-.cys__listradio label input[type="radio"],
-.cys__listradio label input[type="checkbox"]{
-    margin-right: 10px;
-    position: absolute;
-    top: 3px;
-    left: 0;
-}
-***/
+/***PETPOST SIGN-UP PAGE****/
 
 .label-heading {
+	font-size: 20px;
+	font-weight: 400;
 	text-align: left !important;
 	margin-bottom: 10px;
 }
@@ -1269,8 +1248,8 @@ p {
 }
 
 .breed-themes {
-	font-size: 27px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .small-text>span {
@@ -1278,11 +1257,13 @@ p {
 }
 
 .upcoming-radio>.radio label,
-.overdue-radio>.radio label {
+.overdue-radio>.radio label,
+.species-selection>.checkbox label,
+.special-certification>.checkbox label {
+	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 8px;
 }
-
 
 /****MEDIA QUERIES****/
 
@@ -1332,6 +1313,7 @@ p {
 	.twelve-percent-padding,
 	.fifteen-percent-padding,
 	.twenty-five-percent-padding,
+	.thirty-five-percent-padding,
 	.forty-five-left-padding {
 		padding-top: 0;
 	}
@@ -1446,6 +1428,9 @@ p {
 	}
 	.margin-right-zero {
 		margin: 0 auto;
+	}
+	.mobile-btn-margin {
+		margin: 25px auto;
 	}
 }
 
