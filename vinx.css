@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.19.2018 @ 9:37 AM*/
+/*CSS file last updated on 2.19.2018 @ 3:58 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -234,6 +234,10 @@ p {
 
 .thirty-five-percent-padding {
 	padding-top: 35%;
+}
+
+.one-hundred-padding-left {
+	padding-left: 100px;
 }
 
 .top-margin-twenty-one {
@@ -1314,8 +1318,12 @@ p {
 	.fifteen-percent-padding,
 	.twenty-five-percent-padding,
 	.thirty-five-percent-padding,
-	.forty-five-left-padding {
+	.forty-five-left-padding
+	 {
 		padding-top: 0;
+	}
+	.one-hundred-padding-left {
+		padding-left: 0;
 	}
 	.padding-top-zero {
 		padding-top: 100px;
