@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.19.2018 @ 3:58 PM*/
+/*CSS file last updated on 2.20.2018 @ 3:41 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1196,46 +1196,104 @@ p {
 
 /****HOT BOARD PAGE STYLES****/
 
+.blog-header-icon-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	margin: 15px 0;
+}
+
+.blog-header-icon-wrapper>img {
+	margin-right: 15px;
+}
+
+.blog-header-icon-wrapper>h3 {
+	color: #fff;
+	font-weight: 600;
+}
+
+.blog-inner-content {
+	padding: 0 30px 0;
+}
+
 .blog-feature-wrapper {
 	background: #f1f1f1 !important;
 	border: 2px solid #D8d8d8;
 	padding: 0 0 15px 0 !important;
 }
 
-.icon-container {
+.icon-container,
+.love-letter-icon-container {
 	padding: 50px 0;
 }
 
-.icon-container:hover {
+.love-letter-icon-container {
 	background-image: url('../images/dog-cat-resting.png');
+	background-color: #909090;
+	background-blend-mode: multiply;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .icon-inner-container {
 	padding: 20px 0 0 0;
 }
 
-.icon-inner-container>.icon {
-	border: 2px solid #07929E;
-	color: #07929E;
-	height: 85px;
-	width: 85px;
-	line-height: 1.3em;
-}
-
 .blog-excerpt-container {
 	padding: 0 30px 10px;
 }
 
-.blog-excerpt-container>h3 {
-	margin-bottom: 10px !important;
+.blog-excerpt-container>.hot-board-text-link {
+	color: #07929E;
+	font-size: 27px;
+	font-weight: 600;
+}
+
+.blog-excerpt-container>.hot-board-text-link:hover {
+	color: #045a62;
 }
 
 .blog-excerpt-container>p {
 	color: #77797C !important;
 	opacity: 1 !important;
 	font-weight: 400;
-	margin: 0 0 15px 0;
+	margin: 15px 0;
+}
+
+/****hot board full background image container styles****/
+
+.feature-box.full-image-feature-wrapper {
+	background-image: url('../images/beach-dog.png');
+	background-color: #909090;
+	background-blend-mode: multiply;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	border: 2px solid #D8d8d8;
+	padding: 0 0 15px 0 !important;
+}
+
+.feature-box.full-image-feature-wrapper:hover {
+	background-image: url('../images/beach-dog.png');
+	background-color: #909090;
+	background-blend-mode: multiply;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+}
+
+.icon-container-no-image {
+	padding: 50px 0;
+}
+
+.feature-box.full-image-feature-wrapper>.blog-excerpt-container>h6,
+.feature-box.full-image-feature-wrapper>.blog-excerpt-container>.hot-board-text-link,
+.feature-box.full-image-feature-wrapper>.blog-excerpt-container>p {
+	color: #fff !important;
+}
+
+.full-image-feature-wrapper>.blog-excerpt-container>.hot-board-text-link:hover {
+	color: #0bc6d6 !important;
 }
 
 /***PETPOST SIGN-UP PAGE****/
@@ -1248,7 +1306,7 @@ p {
 }
 
 .breed-theme-radio {
-	margin-top: 2.5% !important;
+	margin-top: 1.3% !important;
 }
 
 .breed-themes {
@@ -1267,6 +1325,17 @@ p {
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 8px;
+}
+
+/****GET IN TOUCH - CONTACT US FORM****/
+
+.get-in-touch-form {
+	background: #f1f1f1;
+	padding: 30px;
+}
+
+.get-in-touch-form>label {
+	color: #A7A7A7;
 }
 
 /****MEDIA QUERIES****/
@@ -1318,8 +1387,7 @@ p {
 	.fifteen-percent-padding,
 	.twenty-five-percent-padding,
 	.thirty-five-percent-padding,
-	.forty-five-left-padding
-	 {
+	.forty-five-left-padding {
 		padding-top: 0;
 	}
 	.one-hundred-padding-left {
