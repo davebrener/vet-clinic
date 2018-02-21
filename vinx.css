@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.20.2018 @ 3:41 PM*/
+/*CSS file last updated on 2.21.2018 @ 1:21 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1215,7 +1215,7 @@ p {
 }
 
 .blog-inner-content {
-	padding: 0 30px 0;
+	padding: 40px;
 }
 
 .blog-feature-wrapper {
@@ -1230,8 +1230,7 @@ p {
 }
 
 .love-letter-icon-container {
-	background-image: url('../images/dog-cat-resting.png');
-	background-color: #909090;
+	background-image: url('../images/dog-cat-resting.png'), linear-gradient(to bottom, #909090, #2c2c2c);
 	background-blend-mode: multiply;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1262,24 +1261,21 @@ p {
 	margin: 15px 0;
 }
 
+/****Declare a container height when using a Three Line Title with no paragraph text****/
+
+.three-line-title-container {
+	height: 444px;
+}
+
 /****hot board full background image container styles****/
 
 .feature-box.full-image-feature-wrapper {
-	background-image: url('../images/beach-dog.png');
-	background-color: #909090;
+	background-image: url('../images/beach-dog.png'), linear-gradient(to bottom, #909090, #2c2c2c);
 	background-blend-mode: multiply;
 	background-size: cover !important;
 	background-repeat: no-repeat;
 	border: 2px solid #D8d8d8;
 	padding: 0 0 15px 0 !important;
-}
-
-.feature-box.full-image-feature-wrapper:hover {
-	background-image: url('../images/beach-dog.png');
-	background-color: #909090;
-	background-blend-mode: multiply;
-	background-size: cover !important;
-	background-repeat: no-repeat;
 }
 
 .icon-container-no-image {
@@ -1293,7 +1289,7 @@ p {
 }
 
 .full-image-feature-wrapper>.blog-excerpt-container>.hot-board-text-link:hover {
-	color: #0bc6d6 !important;
+	color: #14dcee !important;
 }
 
 /***PETPOST SIGN-UP PAGE****/
@@ -1316,6 +1312,10 @@ p {
 
 .small-text>span {
 	font-size: 16px;
+}
+
+.special-certification {
+	margin-left: 30%;
 }
 
 .upcoming-radio>.radio label,
@@ -1507,6 +1507,12 @@ p {
 	}
 	.mobile-btn-margin {
 		margin: 25px auto;
+	}
+	.special-certification {
+		margin-left: 0;
+	}
+	.mobile-pic {
+		margin: 0 auto;
 	}
 }
 
