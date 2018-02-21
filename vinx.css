@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.21.2018 @ 1:21 PM*/
+/*CSS file last updated on 2.21.2018 @ 4:17 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -723,26 +723,6 @@ p {
 	padding-top: 10%;
 }
 
-/*
-.dr-pat-btn {
-    background: #07929e;
-    border: 3px solid #07929e;
-    border-radius: 50px;
-    box-shadow: none;
-    color: #fff;
-    font-size: 23px;
-    margin-top: 20px;
-    padding: 8px 30px !important;
-    width: 60%;
-    max-width: 60%;
-}
-
-.dr-pat-btn:hover {
-    background: #045a62 !important;
-    border: 3px solid #045a62;
-    color: #fff;
-}
-*/
 
 .demo-btn {
 	font-size: 23px;
@@ -865,6 +845,12 @@ p {
 .green-link {
 	color: #07929E;
 	font-weight: 600;
+}
+
+/****OUR STORY PAGE STYLES****/
+
+.gd-textbox-title {
+	padding-bottom: 10px;
 }
 
 /****VINX PLEDGE SECTION****/
