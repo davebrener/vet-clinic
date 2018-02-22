@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.21.2018 @ 4:17 PM*/
+/*CSS file last updated on 2.22.2018 @ 9:40 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -848,6 +848,10 @@ p {
 }
 
 /****OUR STORY PAGE STYLES****/
+
+.team-inner-content {
+	padding: 0 25px;
+}
 
 .gd-textbox-title {
 	padding-bottom: 10px;
