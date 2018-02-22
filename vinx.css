@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.22.2018 @ 11:40 AM*/
+/*CSS file last updated on 2.22.2018 @ 3:40 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -62,6 +62,14 @@ p {
 	color: #000;
 	font-size: 16px;
 	line-height: 1.7em;
+}
+
+a {
+	color: #07929e;
+}
+
+a:hover {
+	color: #045a62;
 }
 
 .vinx-green,
@@ -146,6 +154,11 @@ p {
 }
 
 /****PADDING & MARGIN****/
+
+.no-padding-left-right {
+	padding-left: 0;
+	padding-right: 0;
+}
 
 .no-padding-bottom {
 	padding-bottom: 0;
@@ -723,7 +736,6 @@ p {
 	padding-top: 10%;
 }
 
-
 .demo-btn {
 	font-size: 23px;
 	max-width: 280px;
@@ -1282,6 +1294,8 @@ p {
 	color: #14dcee !important;
 }
 
+/****blog post page styles****/
+
 /***PETPOST SIGN-UP PAGE****/
 
 .label-heading {
@@ -1504,7 +1518,6 @@ p {
 	.mobile-pic {
 		margin: 0 auto;
 	}
-
 	.gd-cell-textbox-content>.gd-textbox-text {
 		display: none;
 	}
