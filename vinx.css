@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.22.2018 @ 9:40 AM*/
+/*CSS file last updated on 2.22.2018 @ 11:40 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1503,6 +1503,10 @@ p {
 	}
 	.mobile-pic {
 		margin: 0 auto;
+	}
+
+	.gd-cell-textbox-content>.gd-textbox-text {
+		display: none;
 	}
 }
 
