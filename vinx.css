@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 2.22.2018 @ 3:40 PM*/
+/*CSS file last updated on 3.01.2018 @ 10:30 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1343,6 +1343,12 @@ a:hover {
 }
 
 /****MEDIA QUERIES****/
+
+@media (min-width:768px) {
+	.dropdown:hover .dropdown-menu {
+	display: block;
+	}
+	}
 
 @media (max-width: 1200px) {
 	.forty-five-mobile {
