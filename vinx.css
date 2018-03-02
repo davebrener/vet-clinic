@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 3.01.2018 @ 10:30 AM*/
+/*CSS file last updated on 3.02.2018 @ 1:52 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -151,6 +151,10 @@ a:hover {
 
 .font-weight400 {
 	font-weight: 400 !important;
+}
+
+.font-weight600 {
+	font-weight: 600 !important;
 }
 
 /****PADDING & MARGIN****/
@@ -1331,6 +1335,19 @@ a:hover {
 	margin-bottom: 8px;
 }
 
+/****SIGN-UP PAGE STYLES****/
+
+#sign-up-form {
+	padding-bottom: 100px;
+}
+
+.form-inner-content {
+	background: #F1F1F1;
+	padding: 5%;
+	border: 1px solid #D2D2D2;
+	border-radius: 20px;
+}
+
 /****GET IN TOUCH - CONTACT US FORM****/
 
 .get-in-touch-form {
@@ -1346,9 +1363,9 @@ a:hover {
 
 @media (min-width:768px) {
 	.dropdown:hover .dropdown-menu {
-	display: block;
+		display: block;
 	}
-	}
+}
 
 @media (max-width: 1200px) {
 	.forty-five-mobile {
