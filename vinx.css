@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 3.29.2018 @ 3:37 PM*/
+/*CSS file last updated on 4.04.2018 @ 3:00 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1463,6 +1463,9 @@ a:hover {
 	#banner-header {
 		display: none;
 	}
+	.header-content-container {
+		margin-top: -80px;
+	}
 	.sign-in-section {
 		display: block !important;
 	}
@@ -1473,6 +1476,8 @@ a:hover {
 		margin: 0 auto;
 	}
 	.logo-text {
+		font-size: 40px !important;
+		line-height: 1.35em;
 		text-align: center;
 	}
 	.vinx-col>.btn {
