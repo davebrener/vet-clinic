@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 4.04.2018 @ 3:00 PM*/
+/*CSS file last updated on 4.05.2018 @ 8:47 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1365,11 +1365,6 @@ a:hover {
 
 /****MEDIA QUERIES****/
 
-@media (min-width:768px) {
-	.dropdown:hover .dropdown-menu {
-		display: block;
-	}
-}
 
 @media (max-width: 1200px) {
 	.forty-five-mobile {
@@ -1460,6 +1455,9 @@ a:hover {
 }
 
 @media (max-width:768px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
 	#banner-header {
 		display: none;
 	}
@@ -1479,6 +1477,9 @@ a:hover {
 		font-size: 40px !important;
 		line-height: 1.35em;
 		text-align: center;
+	}
+	.vinx-green {
+		font-size: 38px;
 	}
 	.vinx-col>.btn {
 		width: 100%;
