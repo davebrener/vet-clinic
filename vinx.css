@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 4.06.2018 @ 9:38 AM*/
+/*CSS file last updated on 4.06.2018 @ 2:53 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -493,13 +493,13 @@ a:hover {
 
 .feature-column {
 	background: #fff;
-	border: 1.5px solid #C6C6C6;
+	border: 1.8px solid #C6C6C6;
 	flex: 1;
 	margin: 10px;
 }
 
 .feature-column:hover {
-	border: 1.5px solid #07929E;
+	border: 1.8px solid #07929E;
 }
 
 .feature-box-white-bg {
@@ -512,6 +512,7 @@ a:hover {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.3em;
+	text-align: center;
 }
 
 .content-3-5 .feature-box p {
@@ -523,6 +524,7 @@ a:hover {
 	font-weight: 500;
 	margin-bottom: 35px;
 	padding-bottom: 35px;
+	text-align: center;
 }
 
 .btn.btn-default {
@@ -1369,6 +1371,19 @@ a:hover {
 	display: none;
 }
 
+/***MISC STYLES***/
+
+.circle-check {
+	float: left;
+	padding-top: 5px;
+}
+
+.circle-check-text {
+	display: block;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
 /****MEDIA QUERIES****/
 
 @media (max-width: 1200px) {
@@ -1627,11 +1642,34 @@ a:hover {
 		padding-top: 25px !important;
 		padding-bottom: 25px !important;
 	}
+	.client-relationship-no-pad {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.new-white-col {
+		margin-bottom: -80px
+	}
 	.new-green-col {
-		margin-top: 6%;
+		margin-top: 25%;
 		margin-bottom: 4%;
+		padding-bottom: 12%
 	}
 	.new-green-col>h2 {
 		padding-top: 20%
+	}
+	.section-no-pad {
+		padding-bottom: 0 !important;
+	}
+	.circle-check {
+		float: none;
+		padding-top: 5px;
+	}
+	.circle-check-text {
+		display: block;
+		font-size: 18px;
+		margin-left: 0;
+	}
+	.liv-lily-list {
+		padding-left: 0;
 	}
 }
