@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 4.06.2018 @ 2:53 PM*/
+/*CSS file last updated on 4.09.2018 @ 8:59 AM*/
 
 /****TOP HEADER BANNER****/
 
@@ -1384,6 +1384,12 @@ a:hover {
 	margin-left: 15px;
 }
 
+/***DEMO PAGE STYLES****/
+
+.second-row {
+	margin-top:15px;
+}
+
 /****MEDIA QUERIES****/
 
 @media (max-width: 1200px) {
@@ -1671,5 +1677,8 @@ a:hover {
 	}
 	.liv-lily-list {
 		padding-left: 0;
+	}
+	.second-row {
+		margin-top:0;
 	}
 }
