@@ -1,6 +1,6 @@
 /* Put your custom styles here */
 
-/*CSS file last updated on 4.09.2018 @ 8:59 AM*/
+/*CSS file last updated on 4.10.2018 @ 1:13 PM*/
 
 /****TOP HEADER BANNER****/
 
@@ -408,7 +408,8 @@ a:hover {
 }
 
 .welcome-new-breed {
-	margin-bottom: 65px;
+	/*margin-bottom: 65px;*/
+	margin-bottom: 15px;
 	text-align: center;
 }
 
