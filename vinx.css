@@ -1653,9 +1653,6 @@ a:hover {
 	.second-row {
 		margin-top: 0;
 	}
-}
-
-@media (max-width:365px) {
 	.blog-header-icon-wrapper {
 		flex-flow: column wrap;
 		justify-content: center;
@@ -1668,6 +1665,7 @@ a:hover {
 		margin-right: 0;
 	}
 }
+
 
 /**Navbar Collapse at 992px**/
 
