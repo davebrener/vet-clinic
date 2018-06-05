@@ -1,0 +1,35 @@
+/* Put your custom styles here */
+
+/*CSS file last updated on 6.05.2018 @ 8:31 AM*/
+
+.vinx-orange {
+    color: #EA592F;
+}
+
+.orange-lite {
+	color: #EA592F;
+	font-weight: 400 !important;
+    line-height: 1.2em;
+}
+
+.font-weight800 {
+    font-weight: 800 !important;
+}
+
+.quote-margin { 
+	margin-top: 50%;
+}
+
+.pop-list {
+	list-style-type: disc;
+}
+
+.pop-list>li {
+	margin-bottom: 12px;
+	font-weight: 500;
+}
+
+.pop-btn {
+	color: #07929e !important;
+	padding: 8px 20px;
+}
